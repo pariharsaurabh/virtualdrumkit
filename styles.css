@@ -1,0 +1,54 @@
+body {
+    background-color: #025464;
+}
+
+h1 {
+    display: grid;
+    font-family: 'Lobster', cursive;
+    color: #E57C23;
+    text-align: center;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F8F1F1;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 30px;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #E8AA42;
+    color: #025464;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid black ;
+}
+
+.btnflex {
+    display: flex;
+    justify-content: end;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F8F1F1;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #BDEDF3;
+    opacity: 0.5;
+}
